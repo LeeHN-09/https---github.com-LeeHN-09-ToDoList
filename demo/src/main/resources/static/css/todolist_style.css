@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  width: 400px;
+  width: 450px;
   height: auto;
   min-height: 400px;
   padding: 30px;
@@ -69,6 +69,7 @@ h1 {
 
 .empty-image {
   margin: 55px auto 0;
+  height: 320px;
   display: block;
 }
 
