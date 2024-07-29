@@ -17,8 +17,16 @@ body {
   background-size: cover;
 }
 
+.container_box{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
 .container {
-  width: 450px;
+  width: 400px;
   height: auto;
   min-height: 400px;
   padding: 30px;
@@ -26,6 +34,50 @@ body {
   border: 2px solid #b7cfeca1;
   border-radius: 30px;
   backdrop-filter: blur(15px);
+}
+
+.personal-box{
+  width: 300px;
+  height: auto;
+  min-height: 600px;
+  padding: 30px;
+  background: transparent;
+  border: 2px solid #b7cfeca1;
+  border-radius: 30px;
+  backdrop-filter: blur(15px);
+}
+
+.img-head{
+  display: flex;
+  height: 40px;
+}
+
+.choose-date{
+  margin: 10px;
+}
+
+.out-box{
+  width: 240px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.choose-date p{
+  color: #ffffff;
+}
+
+.img-head p{
+  width: 100px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.personal-box img{
+  width: 30%;
+  border-radius: 20%;
+
 }
 
 h1 {
@@ -69,7 +121,6 @@ h1 {
 
 .empty-image {
   margin: 55px auto 0;
-  height: 320px;
   display: block;
 }
 
